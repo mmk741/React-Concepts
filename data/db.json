@@ -1,0 +1,25 @@
+{
+  "person": [
+    {
+      "name": "moshahid mahtab khan",
+      "email": "moshahidkhan741@gmail.com",
+      "contact": "963433099",
+      "address": "patna",
+      "id": 1
+    },
+    {
+      "name": "shyam",
+      "email": "shyam@jmi.com",
+      "contact": "12345679",
+      "address": "delhi",
+      "id": 2
+    },
+    {
+      "name": "rahul",
+      "email": "rahul@gmail.com",
+      "contact": "1245678",
+      "address": "up",
+      "id": 3
+    }
+  ]
+}
