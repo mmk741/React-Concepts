@@ -1,14 +1,17 @@
 import React from 'react'
 import { useReducer } from 'react'
 
+//useReducer is similar to redux ..it also remove yhe boilerplate which is used in redux
 
-const ACTIONS = {
+//it is similar to actionTypes.js of redux
+const ACTIONS = {                
     INCREMENT: 'increment',
     DECREMENT: 'decrement',
     RESET: 'reset',
     CHANGE_COUNT: 'change-count'
   }
   
+  //it is similar to reducer.js of redux
   function reducer(count, action) {
     switch (action.type) {
       case ACTIONS.INCREMENT:
@@ -27,7 +30,7 @@ const ACTIONS = {
 
 function UseReducerEg() {
 
-    const [count, dispatch] = useReducer(reducer, 0)
+    const [count, dispatch] = useReducer(reducer, 0) //here 0 is the initial state
 
   return (
     <>
