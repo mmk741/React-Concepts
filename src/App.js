@@ -3,7 +3,9 @@ import ComponentRenderinsideWrapper from "./RenderPropsChildren/ComponentRenderi
 import UseReducerEg from "./useReducer/UseReducerEg";
 import GithubState from "./useContext/context/GithubState";
 import ConsumingFromContext from "./useContext/components/ConsumingFromContext";
-
+import Parent from "./propsDotChildren/Parent"
+import SearchUsers from "./hoc/UserList";
+import SearchTodos from "./hoc/TodoList";
 function App() {
 
 
@@ -20,8 +22,17 @@ function App() {
       <GithubState>
         <ConsumingFromContext />
       </GithubState>
+      <br/>
+Eg: ex of props.children
+<Parent/>
+
+<SearchUsers  name='sending props from app to todolist'/>
+<SearchTodos/>
+    
     </div>
   );
 }
 
 export default App;
+
+
